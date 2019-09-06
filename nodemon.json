@@ -1,0 +1,7 @@
+{
+  "watch": ["server/**/*", "server/index.js"],
+  "ext": "js, json",
+  "ignore": ["node_modules", ".next"],
+  "verbose": true,
+  "exec": "babel-node"
+}
