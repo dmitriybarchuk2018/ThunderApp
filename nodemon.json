@@ -1,5 +1,5 @@
 {
-  "watch": ["server/**/*", "server/index.js"],
+  "watch": ["server/**/*", "server/index.js", "assets/**/*", "assets/custom-theme.less"],
   "ext": "js, json",
   "ignore": ["node_modules", ".next"],
   "verbose": true,

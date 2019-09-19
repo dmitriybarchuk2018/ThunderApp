@@ -1,7 +1,6 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-import stylesheet from 'antd/dist/antd.min.css'
 import '../styles/_document.scss'
 
 
@@ -16,7 +15,6 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon"/>
         </Head>
         <body>
-          <style dangerouslySetInnerHTML={{__html: stylesheet}}/>
           <Main/>
           <NextScript/>
         </body>

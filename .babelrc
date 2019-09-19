@@ -1,11 +1,21 @@
 {
-  "plugins": [[
+  "plugins": [
+    [
       "inline-import",
-      {"extensions": [".css"]}
-    ],[
+      {
+        "extensions": [
+          ".css"
+        ]
+      }
+    ],
+    [
       "import",
-      {"libraryName": "antd"}
-    ]],
+      {
+        "libraryName": "antd",
+        "style": true
+      }
+    ]
+  ],
   "presets": [
     "@babel/preset-env",
     "next/babel"
