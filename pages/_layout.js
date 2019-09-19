@@ -7,13 +7,26 @@ import './_layout.scss'
 const {SubMenu} = Menu
 const { Content, Sider} = Layout
 
+
+const CONFIG = [
+  {
+    name: 'Home',
+    route: 'main',
+    iconType: 'setting',
+  },
+  {
+    name: 'About',
+    route: 'about',
+    iconType: 'appstore',
+  },
+]
+
 class _layout extends Component {
   render() {
     return <>
       <Layout className="__layout">
-        <NavBar/>
         <Layout>
-          <Sider width={200} style={{background: '#fff'}}>
+          <Sider width={380} style={{background: '#fff'}}>
             <Menu
               mode="inline"
               defaultSelectedKeys={[ '1' ]}
@@ -50,8 +63,7 @@ class _layout extends Component {
               {this.props.children}
             </Content>
           </Layout>
-          <Layout>
-          </Layout>
+          <NavBar/>
         </Layout>
       </Layout>
     </>
