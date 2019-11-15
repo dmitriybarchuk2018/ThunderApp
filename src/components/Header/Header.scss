@@ -1,0 +1,21 @@
+@import '../../../styles/_colors.scss';
+
+.Header {
+  .logo {
+    margin-right: 30px;
+  }
+
+  .navigation {
+    display: flex;
+    .nav-link {
+      padding: 0;
+    }
+  }
+
+  .logout-link {
+    opacity: .5;
+    color: #000000;
+    font-weight: 600;
+    margin-left: auto;
+  }
+}

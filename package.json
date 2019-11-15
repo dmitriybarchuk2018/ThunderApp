@@ -18,6 +18,7 @@
     "antd": "^3.23.1",
     "babel-plugin-import": "^1.12.1",
     "babel-plugin-inline-import": "^3.0.0",
+    "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
     "express": "^4.17.1",
     "less": "^3.10.3",

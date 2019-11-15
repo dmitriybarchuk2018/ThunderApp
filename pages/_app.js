@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Container } from 'next/app'
-import _layout from './_layout'
+import AppLayout from '../src/components/AppLayout/AppLayout'
 
 
 class AppTemplate extends Component {
@@ -11,18 +11,11 @@ class AppTemplate extends Component {
   }
 
   render() {
-    const { Component, pageProps, store } = this.props
-    const WrappedComponent = Component.noLayout ? <Component {...pageProps} /> : (
-
-      <_layout>
-        <Component {...pageProps} />
-      </_layout>
-    )
-
+    const { Component, pageProps } = this.props
     return (
-      <Container>
-        {WrappedComponent}
-      </Container>
+      <AppLayout>
+        <Component {...pageProps} />
+      </AppLayout>
     )
   }
 }
