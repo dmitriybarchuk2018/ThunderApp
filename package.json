@@ -1,7 +1,7 @@
 {
   "name": "alamo.web.boilerplate",
   "homepage": "https://github.com/dmitriybarchuk2018/alamo.web.boilerplate",
-  "version": "2019.dev.01",
+  "version": "2019.01",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "babel src --out-dir dist",
     "serve": "node dist/server.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "Dmitriy Barchuk",
