@@ -1,15 +1,13 @@
 {
   "name": "alamo.web.boilerplate",
-  "homepage": "https://github.com/dmitriybarchuk2018/alamo.web.boilerplate",
-  "version": "2019.01",
+  "homepage": "https://dmitriybarchuk2018.github.com/alamo-web-boilerplate",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec babel-node server/index.js",
     "build": "babel src --out-dir dist",
-    "serve": "node dist/server.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "serve": "node dist/server.js"
   },
   "keywords": [],
   "author": "Dmitriy Barchuk",
@@ -39,7 +37,6 @@
     "@babel/node": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "autoprefixer": "^9.6.1",
-    "gh-pages": "^2.1.1",
     "nodemon": "^1.19.2"
   }
 }
