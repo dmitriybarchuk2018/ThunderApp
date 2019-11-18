@@ -2,8 +2,13 @@
   "name": "alamo.web.boilerplate",
   "homepage": "https://dmitriybarchuk2018.github.com/alamo-web-boilerplate",
   "version": "0.1.0",
-  "description": "",
+  "private": true,
+  "description": "alamo.web.boilerplate",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmitriybarchuk2018/alamo.web.boilerplate.git"
+  },
   "scripts": {
     "dev": "nodemon --exec babel-node server/index.js",
     "build": "babel src --out-dir dist",
