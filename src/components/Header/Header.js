@@ -16,7 +16,7 @@ class NavBar extends PureComponent {
       {config &&
       config.map((item, i) => <Link key={`header-navigation-${i}`} route={item.route}>
         <a title={item.name} className="nav-link">
-          {item.iconType && <AntIcon type={item.iconType}/>}{item.name}
+          {item.name} {/* Paste normal Icons */}
         </a>
       </Link>)}
     </div>

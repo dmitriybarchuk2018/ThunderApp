@@ -1,11 +1,31 @@
 export const NAV_CONFIG = [
   {
-    name: 'Home',
+    name: 'Главная',
     route: 'main',
     iconType: 'setting',
   },
   {
-    name: 'About',
+    name: 'Как начать играть',
+    route: 'about',
+    iconType: 'appstore',
+  },
+  {
+    name: 'Правила проекта',
+    route: 'about',
+    iconType: 'appstore',
+  },
+  {
+    name: 'Донат',
+    route: 'about',
+    iconType: 'appstore',
+  },
+  {
+    name: 'Discord',
+    route: 'about',
+    iconType: 'appstore',
+  },
+  {
+    name: 'Мониторинг',
     route: 'about',
     iconType: 'appstore',
   },

@@ -1,12 +1,15 @@
 {
-  "name": "thunderClient",
-  "version": "0.0000.01",
+  "name": "AlamoWEB",
+  "homepage": "",
+  "version": "2019.dev.01",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec babel-node server/index.js",
     "build": "babel src --out-dir dist",
-    "serve": "node dist/server.js"
+    "serve": "node dist/server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "Dmitriy Barchuk",
@@ -36,6 +39,7 @@
     "@babel/node": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "autoprefixer": "^9.6.1",
+    "gh-pages": "^2.1.1",
     "nodemon": "^1.19.2"
   }
 }
